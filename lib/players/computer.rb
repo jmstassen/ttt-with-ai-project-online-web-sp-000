@@ -8,7 +8,7 @@ module Players
   def move(board)
     # win(board)
     prevent_loss(board)
-    maximize_potential_victories
+    # maximize_potential_victories
   end
 
   def win(board)
